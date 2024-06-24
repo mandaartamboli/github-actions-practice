@@ -1,12 +1,12 @@
 name: CICD for Reasct App
 
 on:
-  push:
-    branches: [main]
+  #push:
+  #  branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: write
+#permissions:
+#  contents: write
   # permission to pipeline to push
   #project got permission to write/push
   # i.e workflow ko content write karne ki permission
